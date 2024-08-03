@@ -1,0 +1,11 @@
+i my first year i have developed netflix clone using basic HTML and css 
+the working model of this project is the front interface of the Netflix application 
+there are two to three navigation buttons to login or signup, get started   (using href"" tag) 
+and some basic css tags like color , padding , background colur 
+
+in my 3rd semester, i have developed a progress bar webpage using HTML CSS and JS
+the working model of this project is there are two buttns like +1 and -1 with will help you to increment and decrement  the progress 
+and another two buttons und0 and redo are there to erase the total progress and revert changes 
+
+ in my 5th semester i have developed a python code to create TO-DO List application 
+to add new tasks, edit existing tasks, and remove tasks from the list With the using of nested if statements 

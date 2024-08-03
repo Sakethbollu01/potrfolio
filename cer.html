@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certificates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFEFD5 ;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        header ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            display: flex;
+            gap: 15px;
+        }
+        header ul li {
+            display: inline;
+        }
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        header ul li a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .certificate {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            width: 30%;
+            min-width: 350px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .certificate img {
+            width: 100%;
+            height: auto;
+        }
+        .certificate:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            padding: 15px;
+            text-align: center;
+            color: #555;
+        }
+        @media (max-width: 768px) {
+            .certificate {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .certificate {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Certificates</h1>
+<ul>
+        <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+            <li><a href="ab.html">About Me</a></li>
+
+    </ul>
+</header>
+
+<div class="container">
+    <h1>My Certificates</h1>
+    <div class="certificates">
+        <div class="certificate">
+            <img src="psb.jpg" alt="Certificate 1">
+            <div class="caption">Certificate: Problem Solving (Basic)</div>
+            <a class="caption" href="https://www.hackerrank.com/certificates/a5f57eb46e64" target="_blank">Certification Link</a>
+        </div>
+        <div class="certificate">
+            <img src="py.jpg" alt="Certificate 2">
+            <div class="caption">Certificate: Python (Basic)</div>
+            <a href="https://www.hackerrank.com/certificates/698b9e3e5c81" target="_blank">Certification Link</a>
+        </div>
+        <div class="certificate">
+            <img src="csf.jpg" alt="Certificate 3">
+            <div class="caption">Certificate: CodSoft Virtual Internship</div>
+            <a href="https://drive.google.com/file/d/1Sj8XzOrVBfkfFXPYCu_3kt8uIGCxl4Xk/view" target="_blank">Certification Link</a>
+        </div>
+        <div class="certificate">
+            <img src="flm.jpg" alt="Certificate 4">
+            <div class="caption">Certificate: Python+DSA Course completion</div>
+            <a href="https://www.linkedin.com/in/saketh-bollu-91ba70279/details/certifications/1704949713173/single-media-viewer/?profileId=ACoAAEP3hCcB3NBi1NuknbFgc3RBsjiZuWlYiHo" target="_blank">Certification Link</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
